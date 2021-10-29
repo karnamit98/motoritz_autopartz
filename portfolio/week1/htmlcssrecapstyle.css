@@ -1,0 +1,86 @@
+main {
+  margin-left: 11.3%;
+  margin-right: 11.3%;
+  width: 77.4%;
+  height: 75%;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  border: 6px solid #3d3e5d;
+  height: 250px;
+  background-color: whitesmoke;
+  color: white;
+  /*filter: drop-shadow(2px 2px 3px black);*/
+}
+.box1 {
+  background-image: url(images/htmlcssrecap.jpg);
+  background-position: bottom;
+  background-position-x: left;
+  padding-top: 24px;
+  font-weight: bold;
+  color: #f6f6f6;
+}
+.box2 {
+  background-color: #f16e50;
+  padding: 15px;
+}
+.box3 {
+  background-color: #feb45d;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+.box4 {
+  background-color: #14b2a3;
+  padding: 25px;
+}
+.box5 {
+  background-color: #f6f6f6;
+  color: black;
+  padding: 15px;
+  font-weight: bold;
+}
+
+/*fonts in box 1*/
+.wat {
+  font-size: 4em;
+}
+.nwat {
+  font-size: 1.5em;
+}
+
+/*links in box 2*/
+
+main .box2 ul li {
+  text-decoration: none;
+  font-weight: bold;
+}
+main .box2 ul li a {
+  color: white;
+  text-decoration: underline;
+  font-size: 1.25em;
+}
+
+/*font in box 3*/
+.wed {
+  font-size: 3.3em;
+}
+
+/*table in box 4*/
+.table1 {
+  margin: 15px;
+  margin-right: 15px;
+  width: 95%;
+  font-weight: bold;
+}
+thead {
+  border-bottom: 2px solid hsl(174, 82%, 85%);
+}
+
+/*form in box 5*/
+form {
+  margin-left: 18px;
+}

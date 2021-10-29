@@ -1,0 +1,69 @@
+body {
+  overflow-x: hidden;
+  font-family: "Nova Square", cursive;
+  background-color: #f5cdaa;
+}
+.nav-container {
+  max-width: 20vw;
+  height: 100vh;
+  background-color: #8186d5;
+  /* background-color:#745c97; */
+  filter: drop-shadow(0 0 4px #000);
+  margin-right: 3vw;
+  /* background:linear-gradient(to right, #5b86e5 , #36d1dc); */
+  /* background-image:url('images/dirt1.jpg'); */
+  /* background:linear-gradient(to right, rgba(0,0,0,0.2) , rgba(0,1,2,0.1)); */
+  background-position: cover;
+}
+
+a:hover {
+  text-decoration: none;
+}
+a.dashboard {
+  color: #fff;
+}
+a.menus {
+  color: #bbbbbb;
+}
+a.menus:hover {
+  color: #ffe7ad;
+}
+hr.hr-sb {
+  /* background-color:#6c7b95; */
+  background-color: #c6cbef;
+}
+#toggle-btn {
+  position: fixed;
+  top: -5px;
+  left: -5px;
+}
+#toggle-btn h4 {
+  background-color: #c70d3a;
+}
+#toggle-btn h4:hover {
+  background-color: #200f21;
+}
+.jumbotron {
+  filter: drop-shadow(0 0 2px #5d5b6a);
+}
+.jbrand {
+  background-color: #35495e;
+  /* background:linear-gradient(to right, #ff7315   , #e9ea77); */
+}
+.jcat {
+  background-color: #ff7e67;
+  /* background:linear-gradient(to right, #11998E  , #38EF7D); */
+}
+.jitem {
+  background-color: #ff7e67;
+  /* background:linear-gradient(to right, #A1C4FD  , #C2E9FB); */
+}
+.juser {
+  background-color: #35495e;
+  /* background:linear-gradient(to right, #614385   , #516395); */
+}
+.jumbotron:hover {
+  opacity: 0.8;
+  filter: drop-shadow(0px 0px 5px #000);
+  cursor: pointer;
+}
